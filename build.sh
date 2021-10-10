@@ -1,5 +1,7 @@
 #/bin/bash
 
+sudo apt update && sudo apt upgrade
+
 mkdir ~/tools
 cd ~/tools
 
@@ -31,12 +33,13 @@ unzip ngrok.zip
 cd ~
 
 apt -y install powershell-empire
+apt -y install powershell-empire 
 apt -y install feroxbuster
 mkdir ~/wordlists
 cd /usr/share/wordlists
 cp -r * ~/wordlists
 cd ~/wordlists
-apt -y install seclists
+git clone https://github.com/danielmiessler/SecLists.git
 cd ~/tools
 apt -y install crackmapexec
 git clone https://github.com/Dewalt-arch/pimpmykali.git
@@ -74,3 +77,6 @@ mv webserver ~
 cd ~/PrivilegeEscalation/Linux
 git clone git@github.com:CyberJunnkie/LXDAutoPrivilegeEscalator.git  
 cd ~
+
+
+sudo apt update && sudo apt upgrade
