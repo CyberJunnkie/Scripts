@@ -50,6 +50,7 @@ apt -y install httprobe
 apt -y install chisel
 apt -y install dsniff
 apt -y install golang
+apt -y install flameshot
 pip install mitm6
 go get github.com/ropnop/kerbrute
 git clone git@github.com:CyberJunnkie/DomainHunter.git
