@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mousepad ~/Pentesting-Notes/LinuxCheetSheet.md&
-mousepad ~/Pentesting-Notes/WindowsCheatSheet.md&
-mousepad ~/Pentesting-Notes/WebApp.md&
-mousepad ~/Pentesting-Notes/ActiveDirectory.md&
-mousepad ~/Pentesting-Notes/AVbypassing.md&
-mousepad ~/Pentesting-Notes/C2Frameworks.md&
+subl ~/Pentesting-Notes/LinuxCheetSheet.md&
+subl ~/Pentesting-Notes/WindowsCheatSheet.md&
+subl ~/Pentesting-Notes/WebApp.md&
+subl ~/Pentesting-Notes/ActiveDirectory.md&
+subl ~/Pentesting-Notes/AVbypassing.md&
+subl ~/Pentesting-Notes/C2Frameworks.md&
