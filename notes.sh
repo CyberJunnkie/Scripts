@@ -1,8 +1,3 @@
 #!/bin/bash
 
-subl ~/Pentesting-Notes/LinuxCheetSheet.md&
-subl ~/Pentesting-Notes/WindowsCheatSheet.md&
-subl ~/Pentesting-Notes/WebApp.md&
-subl ~/Pentesting-Notes/ActiveDirectory.md&
-subl ~/Pentesting-Notes/AVbypassing.md&
-subl ~/Pentesting-Notes/C2Frameworks.md&
+subl ~/Pentesting-Notes/LinuxCheetSheet.md ~/Pentesting-Notes/WindowsCheatSheet.md ~/Pentesting-Notes/WebApp.md ~/Pentesting-Notes/ActiveDirectory.md ~/Pentesting-Notes/AVbypassing.md ~/Pentesting-Notes/C2Frameworks.md
