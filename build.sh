@@ -1,7 +1,7 @@
 #/bin/bash
 
-sudo -y apt update
-sudo -y apt upgrade
+sudo  apt update -y
+sudo  apt upgrade -y
 
 mkdir ~/tools
 cd ~/tools
@@ -83,5 +83,5 @@ git clone git@github.com:CyberJunnkie/LXDAutoPrivilegeEscalator.git
 cd ~
 
 
-sudo -y apt update
-sudo -y apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
