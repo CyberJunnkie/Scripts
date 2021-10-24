@@ -69,6 +69,7 @@ git clone git@github.com:CyberJunnkie/Pentesting-Notes.git
 git clone git@github.com:CyberJunnkie/Tryhackme.git
 git clone git@github.com:CyberJunnkie/Scripts.git
 cd Scripts
+chmod +x notes.sh gitpush.sh CheatSheetGit.sh DHgit.sh THMgit.sh keyboardrgb.sh
 cp notes.sh gitpush.sh CheatSheetGit.sh DHgit.sh THMgit.sh keyboardrgb.sh -t /usr/local/bin
 cd ~
 git clone git@github.com:CyberJunnkie/extras.git
