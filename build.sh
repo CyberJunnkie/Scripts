@@ -33,6 +33,7 @@ unzip ngrok.zip
 
 cd ~
 
+apt -y install terminator
 apt -y install powershell-empire
 apt -y install powershell-empire 
 apt -y install feroxbuster
