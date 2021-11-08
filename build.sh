@@ -1,6 +1,7 @@
 #/bin/bash
 
-sudo apt update && sudo apt upgrade
+sudo  apt update -y
+sudo  apt upgrade -y
 
 mkdir ~/tools
 cd ~/tools
@@ -32,6 +33,7 @@ unzip ngrok.zip
 
 cd ~
 
+apt -y install terminator
 apt -y install powershell-empire
 apt -y install powershell-empire 
 apt -y install feroxbuster
@@ -68,6 +70,7 @@ git clone git@github.com:CyberJunnkie/Pentesting-Notes.git
 git clone git@github.com:CyberJunnkie/Tryhackme.git
 git clone git@github.com:CyberJunnkie/Scripts.git
 cd Scripts
+chmod +x notes.sh gitpush.sh CheatSheetGit.sh DHgit.sh THMgit.sh keyboardrgb.sh
 cp notes.sh gitpush.sh CheatSheetGit.sh DHgit.sh THMgit.sh keyboardrgb.sh -t /usr/local/bin
 cd ~
 git clone git@github.com:CyberJunnkie/extras.git
@@ -80,4 +83,5 @@ git clone git@github.com:CyberJunnkie/LXDAutoPrivilegeEscalator.git
 cd ~
 
 
-sudo apt update && sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
